@@ -156,6 +156,7 @@ npm run dev
 | 👨‍💼 Admin | Mengelola seluruh sistem |
 | 🧑‍💻 Kasir | Melakukan transaksi penjualan |
 ---
+
 # Akun Login
 |email | password |
 |------|-----------|
