@@ -155,12 +155,12 @@ npm run dev
 |------|-----------|
 | 👨‍💼 Admin | Mengelola seluruh sistem |
 | 🧑‍💻 Kasir | Melakukan transaksi penjualan |
+---
 
-|------|-----------|
 | email | password |
+|------|-----------|
 |admin@pos.com|password|
 |kasir@pos.com|kasirPOS|
-|------|-----------|
 ---
 
 # 📈 Roadmap
