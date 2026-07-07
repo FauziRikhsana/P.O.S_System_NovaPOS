@@ -1,32 +1,38 @@
 <div align="center">
 
 # 🛒 NexaPOS
+
 ### Smart Point of Sale Management System
 
-Sistem Point of Sale (POS) berbasis **Laravel 12** yang dirancang untuk membantu proses pengelolaan produk, supplier, transaksi penjualan, dan laporan dengan antarmuka modern.
+Sistem Point of Sale (POS) berbasis **Laravel 12** yang membantu pengelolaan produk, supplier, transaksi penjualan, serta laporan dalam satu aplikasi dengan antarmuka modern.
 
-![Laravel](https://img.shields.io/badge/Laravel-12-red?style=for-the-badge&logo=laravel)
-![PHP](https://img.shields.io/badge/PHP-8.2-blue?style=for-the-badge&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Modern_UI-38BDF8?style=for-the-badge&logo=tailwindcss)
+![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-Modern_UI-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![License](https://img.shields.io/badge/License-Educational-success?style=for-the-badge)
 
 </div>
 
 ---
 
+# 👨‍🎓 Identitas Mahasiswa
+
+| Keterangan | Informasi |
+|------------|-----------|
+| **Nama** | **Nama Lengkap Kamu** |
+| **NIM** | **NIM Kamu** |
+| **Program Studi** | Teknik Informatika |
+| **Mata Kuliah** | Pemrograman Web |
+| **Universitas** | Nama Universitas Kamu |
+
+---
+
 # 📖 Tentang Project
 
-**NexaPOS** adalah aplikasi Point of Sale (POS) yang dibuat sebagai proyek **Ujian Akhir Semester (UAS)**.
+**NexaPOS** merupakan aplikasi **Point of Sale (POS)** berbasis web yang dikembangkan menggunakan **Laravel 12**.
 
-Aplikasi ini membantu proses:
-
-- 📦 Manajemen Produk
-- 🏷️ Manajemen Kategori
-- 🚚 Manajemen Supplier
-- 💰 Transaksi Penjualan
-- 📊 Dashboard
-- 📜 Riwayat Penjualan
-- 👥 Multi Role (Admin & Kasir)
+Aplikasi ini dibuat sebagai proyek **Ujian Akhir Semester (UAS)** untuk membantu proses pengelolaan toko mulai dari data produk, supplier, transaksi penjualan hingga riwayat transaksi dengan sistem yang modern dan mudah digunakan.
 
 ---
 
@@ -34,47 +40,48 @@ Aplikasi ini membantu proses:
 
 ## 👨‍💼 Admin
 
-- Dashboard
-- CRUD Kategori
-- CRUD Supplier
-- CRUD Produk
-- Upload Gambar Produk
-- Generate QR Code Produk
-- Manajemen Stok
-- Riwayat Penjualan
+- 📊 Dashboard
+- 📦 CRUD Produk
+- 🏷 CRUD Kategori
+- 🚚 CRUD Supplier
+- 🖼 Upload Gambar Produk
+- 🔳 Generate QR Code Produk
+- 📈 Manajemen Stok
+- 📜 Riwayat Penjualan
 
 ---
 
 ## 🧑‍💻 Kasir
 
-- Login
-- Dashboard Kasir
-- Transaksi Penjualan
-- Keranjang Belanja
-- Pembayaran Tunai
-- Pembayaran QRIS *(Coming Soon)*
-- Cetak Struk *(Coming Soon)*
-- Riwayat Transaksi
+- 🔐 Login
+- 📊 Dashboard Kasir
+- 🛒 Transaksi Penjualan
+- ➕ Keranjang Belanja
+- 💵 Pembayaran Tunai
+- 📱 Pembayaran QRIS *(Coming Soon)*
+- 🧾 Cetak Struk *(Coming Soon)*
+- 📜 Riwayat Transaksi
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
-| Technology | Version |
-|------------|---------|
+| Teknologi | Digunakan |
+|------------|-----------|
 | Laravel | 12 |
 | PHP | 8.2 |
-| MySQL | Latest |
-| Tailwind CSS | Latest |
+| MySQL | Database |
+| Tailwind CSS | User Interface |
 | Blade | Template Engine |
-| Vite | Build Tool |
+| Vite | Asset Bundler |
 | Composer | Dependency Manager |
+| Git | Version Control |
 
 ---
 
 # 📂 Struktur Project
 
-```
+```text
 app/
 bootstrap/
 config/
@@ -90,69 +97,74 @@ vendor/
 
 # 🚀 Instalasi
 
-### Clone Repository
+## 1. Clone Repository
 
 ```bash
 git clone https://github.com/USERNAME/NexaPOS.git
 ```
 
-Masuk ke folder project
+## 2. Masuk ke Folder
 
 ```bash
 cd NexaPOS
 ```
 
-Install dependency
+## 3. Install Dependency Laravel
 
 ```bash
 composer install
 ```
 
-Install Node Modules
+## 4. Install Dependency Frontend
 
 ```bash
 npm install
 ```
 
-Copy file environment
+## 5. Copy File Environment
 
 ```bash
 cp .env.example .env
 ```
 
-Generate Key
+## 6. Generate Application Key
 
 ```bash
 php artisan key:generate
 ```
 
-Atur database pada file `.env`
+## 7. Konfigurasi Database
+
+Buka file **.env**
 
 ```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
 DB_DATABASE=nexapos
 DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-Migrasi database
+## 8. Jalankan Migrasi
 
 ```bash
 php artisan migrate
 ```
 
-Buat symbolic link
+## 9. Buat Storage Link
 
 ```bash
 php artisan storage:link
 ```
 
-Jalankan server Laravel
+## 10. Jalankan Server
 
 ```bash
 php artisan serve
 ```
 
-Jalankan Vite
+## 11. Jalankan Vite
 
 ```bash
 npm run dev
@@ -160,71 +172,85 @@ npm run dev
 
 ---
 
-# 📸 Tampilan
+# 📸 Tampilan Aplikasi
 
-### Login
+### 🔐 Login
 
 > Modern Login Page
 
-### Dashboard
+---
 
-> Dashboard Admin
+### 📊 Dashboard Admin
 
-### Produk
-
-> CRUD Produk + QR Code
-
-### Kasir
-
-> Halaman Transaksi
+> Menampilkan ringkasan data sistem.
 
 ---
 
-# 🔐 Role User
+### 📦 Manajemen Produk
+
+> CRUD Produk beserta QR Code.
+
+---
+
+### 🛒 Halaman Kasir
+
+> Transaksi penjualan dengan sistem keranjang.
+
+---
+
+# 🔐 Role Pengguna
 
 | Role | Hak Akses |
 |------|-----------|
-| Admin | Mengelola seluruh sistem |
-| Kasir | Melakukan transaksi penjualan |
+| 👨‍💼 Admin | Mengelola seluruh sistem |
+| 🧑‍💻 Kasir | Melakukan transaksi penjualan |
 
 ---
 
 # 📈 Roadmap
 
-- [x] Login
-- [x] Dashboard
-- [x] CRUD Kategori
-- [x] CRUD Supplier
-- [x] CRUD Produk
-- [x] Upload Gambar
-- [x] QR Code Produk
-- [x] Multi Role
-- [x] Transaksi
-- [ ] QRIS Payment
-- [ ] Cetak Struk PDF
-- [ ] Laporan Penjualan
-- [ ] Grafik Dashboard
+- ✅ Login
+- ✅ Dashboard Admin
+- ✅ Dashboard Kasir
+- ✅ CRUD Kategori
+- ✅ CRUD Supplier
+- ✅ CRUD Produk
+- ✅ Upload Gambar Produk
+- ✅ Generate QR Code Produk
+- ✅ Multi Role
+- ✅ Transaksi Penjualan
+- ✅ Riwayat Penjualan
+- ⏳ Pembayaran QRIS
+- ⏳ Cetak Struk PDF
+- ⏳ Grafik Dashboard
+- ⏳ Laporan Penjualan
 
 ---
 
-# 🤝 Kontribusi
+# 📄 Lisensi
 
-Project ini dibuat sebagai media pembelajaran dan tugas **Ujian Akhir Semester (UAS)**.
-
-Pull Request dan masukan selalu diterima.
+Project ini dibuat untuk keperluan **Ujian Akhir Semester (UAS)** dan sebagai media pembelajaran.
 
 ---
 
 # 👨‍💻 Developer
 
-**NexaPOS**
+**Nama :** Nama Lengkap Kamu
 
-Developed with ❤️ using Laravel 12
+**NIM :** NIM Kamu
+
+**Program Studi :** Teknik Informatika
+
+**Universitas :** Nama Universitas Kamu
 
 ---
 
 <div align="center">
 
-### ⭐ Jika project ini bermanfaat, jangan lupa berikan Star ⭐
+## ⭐ Terima kasih telah mengunjungi repository ini ⭐
+
+**NexaPOS — Smart Point of Sale Management System**
+
+Made with ❤️ using **Laravel 12**
 
 </div>
