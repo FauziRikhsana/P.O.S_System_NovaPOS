@@ -57,9 +57,7 @@ Aplikasi ini dibuat sebagai proyek **Ujian Akhir Semester (UAS)** untuk membantu
 - 📊 Dashboard Kasir
 - 🛒 Transaksi Penjualan
 - ➕ Keranjang Belanja
-- 💵 Pembayaran Tunai
-- 📱 Pembayaran QRIS *(Coming Soon)*
-- 🧾 Cetak Struk *(Coming Soon)*
+- 💵 Payment
 - 📜 Riwayat Transaksi
 
 ---
@@ -78,62 +76,43 @@ Aplikasi ini dibuat sebagai proyek **Ujian Akhir Semester (UAS)** untuk membantu
 | Git | Version Control |
 
 ---
-
-# 📂 Struktur Project
-
-```text
-app/
-bootstrap/
-config/
-database/
-public/
-resources/
-routes/
-storage/
-vendor/
-```
-
----
-
-# 🚀 Instalasi
-
-## 1. Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/USERNAME/NexaPOS.git
 ```
 
-## 2. Masuk ke Folder
+## 1 Masuk ke Folder
 
 ```bash
 cd NexaPOS
 ```
 
-## 3. Install Dependency Laravel
+## 2 Install Dependency Laravel
 
 ```bash
 composer install
 ```
 
-## 4. Install Dependency Frontend
+## 3 Install Dependency Frontend
 
 ```bash
 npm install
 ```
 
-## 5. Copy File Environment
+## 4. Copy File Environment
 
 ```bash
 cp .env.example .env
 ```
 
-## 6. Generate Application Key
+## 5 Generate Application Key
 
 ```bash
 php artisan key:generate
 ```
 
-## 7. Konfigurasi Database
+## 6 Konfigurasi Database
 
 Buka file **.env**
 
@@ -146,19 +125,19 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-## 8. Jalankan Migrasi
+## 7 Jalankan Migrasi
 
 ```bash
 php artisan migrate
 ```
 
-## 9. Buat Storage Link
+## 8 Buat Storage Link
 
 ```bash
 php artisan storage:link
 ```
 
-## 10. Jalankan Server
+## 9 Jalankan Server
 
 ```bash
 php artisan serve
@@ -170,7 +149,6 @@ php artisan serve
 npm run dev
 ```
 
----
 
 # 📸 Tampilan Aplikasi
 
@@ -204,6 +182,10 @@ npm run dev
 |------|-----------|
 | 👨‍💼 Admin | Mengelola seluruh sistem |
 | 🧑‍💻 Kasir | Melakukan transaksi penjualan |
+
+| email | password |
+|admin@pos.com|password|
+|kasir@pos.com|kasirPOS|
 
 ---
 
