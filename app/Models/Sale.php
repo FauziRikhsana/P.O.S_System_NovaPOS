@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Sale extends Model
+{
+    protected $fillable = [
+        'invoice',
+        'user_id',
+        'total',
+        'paid',
+        'change',
+        'payment_method'
+    ];
+
+    public function details()
+    {
+        return $this->hasMany(SaleDetail::class);
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+}
