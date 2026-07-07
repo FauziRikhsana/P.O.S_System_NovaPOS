@@ -20,11 +20,11 @@ Sistem Point of Sale (POS) berbasis **Laravel 12** yang membantu pengelolaan pro
 
 | Keterangan | Informasi |
 |------------|-----------|
-| **Nama** | **Nama Lengkap Kamu** |
-| **NIM** | **NIM Kamu** |
+| **Nama** | **Fauzi Rikhshana** |
+| **NIM** | **23552011030** |
 | **Program Studi** | Teknik Informatika |
-| **Mata Kuliah** | Pemrograman Web |
-| **Universitas** | Nama Universitas Kamu |
+| **Mata Kuliah** | Pemrograman Web 2 |
+| **Universitas** | Universitas Teknologi Bandung |
 
 ---
 
@@ -235,13 +235,13 @@ Project ini dibuat untuk keperluan **Ujian Akhir Semester (UAS)** dan sebagai me
 
 # 👨‍💻 Developer
 
-**Nama :** Nama Lengkap Kamu
+**Nama :** Fauzi Rikhshana
 
-**NIM :** NIM Kamu
+**NIM :** 23552011030
 
 **Program Studi :** Teknik Informatika
 
-**Universitas :** Nama Universitas Kamu
+**Universitas :** Universitas Teknologi Bandung
 
 ---
 
@@ -251,6 +251,6 @@ Project ini dibuat untuk keperluan **Ujian Akhir Semester (UAS)** dan sebagai me
 
 **NexaPOS — Smart Point of Sale Management System**
 
-Made with ❤️ using **Laravel 12**
+Made with using **Laravel 12**
 
 </div>
