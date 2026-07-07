@@ -79,7 +79,7 @@ Aplikasi ini dibuat sebagai proyek **Ujian Akhir Semester (UAS)** untuk membantu
 ## Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/NexaPOS.git
+git clone https://github.com/FauziRikhsana/P.O.S_System_NovaPOS
 ```
 
 ## 1 Masuk ke Folder
@@ -143,38 +143,11 @@ php artisan storage:link
 php artisan serve
 ```
 
-## 11. Jalankan Vite
+## 10. Jalankan Vite
 
 ```bash
 npm run dev
 ```
-
-
-# 📸 Tampilan Aplikasi
-
-### 🔐 Login
-
-> Modern Login Page
-
----
-
-### 📊 Dashboard Admin
-
-> Menampilkan ringkasan data sistem.
-
----
-
-### 📦 Manajemen Produk
-
-> CRUD Produk beserta QR Code.
-
----
-
-### 🛒 Halaman Kasir
-
-> Transaksi penjualan dengan sistem keranjang.
-
----
 
 # 🔐 Role Pengguna
 
@@ -183,10 +156,11 @@ npm run dev
 | 👨‍💼 Admin | Mengelola seluruh sistem |
 | 🧑‍💻 Kasir | Melakukan transaksi penjualan |
 
+|------|-----------|
 | email | password |
 |admin@pos.com|password|
 |kasir@pos.com|kasirPOS|
-
+|------|-----------|
 ---
 
 # 📈 Roadmap
