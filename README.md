@@ -177,10 +177,9 @@ npm run dev
 - ✅ Multi Role
 - ✅ Transaksi Penjualan
 - ✅ Riwayat Penjualan
-- ⏳ Pembayaran QRIS
-- ⏳ Cetak Struk PDF
-- ⏳ Grafik Dashboard
-- ⏳ Laporan Penjualan
+- ✅ Cetak Struk PDF
+- ✅ Grafik Dashboard
+- ✅ Laporan Penjualan
 
 ---
 
